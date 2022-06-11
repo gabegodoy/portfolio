@@ -26,7 +26,11 @@
   color: var(--green);
   font-family: var(--play);
   font-weight: 700;
-  margin-left: 2%;
+  transition: margin .7s;
+}
+
+.home__title__name:hover{
+  margin-left: 10%;
 }
 
 .home__title__lastname{
@@ -35,7 +39,11 @@
   color: var(--green);
   font-family: var(--play);
   font-weight: 700;
-  margin-right: 2%;
+  transition: margin .7s;
+}
+
+.home__title__lastname:hover{
+  margin-right: 10%;
 }
 
 .home__subtitle{
