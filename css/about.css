@@ -1,0 +1,33 @@
+.about{
+  background: var(--cinza1);
+  height: 100vh;
+  display: flex;
+}
+
+.about__container{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+}
+
+.about__image{
+  width: 40rem;
+}
+
+.about__title{
+  font-size: 4rem;
+  color: var(--green);
+  font-family: var(--play);
+  font-weight: 700;
+}
+
+.about__description{
+  color: var(--black);
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  text-align: justify;
+  line-height: 2rem;
+}
