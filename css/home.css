@@ -1,0 +1,93 @@
+
+.home{
+  background: var(--blue);
+  height: 100vh;
+  display: flex;
+}
+
+.home__container{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+}
+
+.home__info{
+  text-align: center;
+  vertical-align: middle;
+  max-width: 30%;
+}
+
+.home__title__name{
+  text-align: left;
+  font-size: 5rem;
+  color: var(--green);
+  font-family: var(--play);
+  font-weight: 700;
+  margin-left: 2%;
+}
+
+.home__title__lastname{
+  text-align: right;
+  font-size: 5rem;
+  color: var(--green);
+  font-family: var(--play);
+  font-weight: 700;
+  margin-right: 2%;
+}
+
+.home__subtitle{
+  text-align: left;
+  font-size: 2rem;
+  color: var(--gray1);
+  line-height: 2.5rem;
+  margin-top: 1.5rem;
+  font-weight: 700;
+
+}
+
+.home__description{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-start;
+
+  text-align: left;
+  font-size: 1rem;
+  color: var(--gray1);
+  font-weight: 500;
+
+  color: var(--gray1);
+}
+
+.home__description__function{
+  text-transform: uppercase;
+  padding-right: 5%;
+  margin-right: 5%;
+  border-right: solid 1px var(--gray1);
+}
+
+.square__up{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30vw;
+  height: 65vh;
+  background-color: var(--yellow);
+}
+
+.home__avatar{
+  position: relative;
+  width: 37.5rem;
+  z-index: 10;
+}
+
+.square__down{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 30vw;
+  height: 35vh;
+  background-color: var(--coral);
+}
