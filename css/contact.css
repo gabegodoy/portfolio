@@ -14,7 +14,7 @@
 }
 
 .contact__image{
-  width: 40rem;
+  width: 40vw;
 }
 
 .contact__right{
@@ -48,6 +48,21 @@
 .contact__media__item:hover{
   width: 6rem;
   margin-top: -4rem;
+}
+
+.mail:hover{
+  background-color: #BB001B;
+  border-radius: 999px;
+}
+
+.github:hover{
+  background-color: #171515;
+  border-radius: 999px;
+}
+
+.linkedin:hover{
+  background-color: #0E76A8;
+  border-radius: 999px;
 }
 
 .rec__bottom{
