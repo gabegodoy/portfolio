@@ -13,6 +13,10 @@
   gap: 10%;
 }
 
+.about__text{
+  max-height: 90vh;
+}
+
 .about__image{
   width: 40vw;
 }
