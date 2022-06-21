@@ -18,15 +18,34 @@
 }
 
 .contact__right{
-  width: 30%;
+  width: fit-content;
+  max-width: 30vw;
 }
 
-.contact__text{
-  font-size: 6rem;
+.contact__text__left{
+  display: none;
+  font-size: 5rem;
   color: var(--coral);
   font-family: var(--play);
   font-weight: 700;
+
+  text-align: justify;
+
+  width: fit-content;
+  
 }
+
+.contact__text__right{
+  font-size: 5rem;
+  color: var(--coral);
+  font-family: var(--play);
+  font-weight: 700;
+
+  text-align: justify;
+
+  width: fit-content;
+}
+
 
 .contact__media{
   display: flex;
@@ -72,4 +91,47 @@
   width: 30vw;
   height: 35vh;
   background-color: var(--coral);
+}
+
+
+@media screen and (max-width: 420px){
+
+  .contact__container{
+    flex-direction: column;
+    width: 80%;
+    gap: 0;
+  }
+  
+  .contact__left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .contact__right{
+    width: fit-content;
+    width: 100%;
+  }
+
+  .contact__image{
+    width: 65vw;
+  }
+
+  .contact__text__left{
+    display: block;
+    font-size: 5rem;
+    text-align: center;
+  }
+
+  .contact__text__right{
+    display: none;
+  }
+  
+  .contact__media{
+    border-bottom: none;
+    gap: 2rem;
+    margin-top: 10rem;
+  }
+ 
 }

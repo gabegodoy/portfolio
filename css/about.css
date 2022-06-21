@@ -1,6 +1,7 @@
 .about{
   background: var(--cinza1);
-  height: 100vh;
+  height: 100%;
+  min-height: 100vh;
   display: flex;
 }
 
@@ -11,17 +12,25 @@
   align-items: center;
   justify-content: center;
   gap: 10%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
-.about__text{
-  max-height: 90vh;
-}
 
 .about__image{
   width: 40vw;
 }
 
-.about__title{
+.about__title__desktop{
+  font-size: 4rem;
+  color: var(--green);
+  font-family: var(--play);
+  font-weight: 700;
+}
+
+
+.about__title__mobile{
+  display: none;
   font-size: 4rem;
   color: var(--green);
   font-family: var(--play);
@@ -30,8 +39,29 @@
 
 .about__description{
   color: var(--black);
-  margin-top: 3rem;
-  font-size: 1.5rem;
+  margin-top: 2rem;
+  font-size: 1.3rem;
   text-align: justify;
-  line-height: 2rem;
+  line-height: 1.5rem;
+}
+
+@media screen and (max-width: 420px){
+
+  .about__container{
+    flex-direction: column;
+  }
+
+  .about__title__desktop{
+    display: none;
+  }
+
+  .about__title__mobile{
+    display: block;
+  }
+
+  .about__image{
+    width: 65vw;
+    margin: 3rem 0;
+  }
+
 }

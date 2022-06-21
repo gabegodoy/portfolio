@@ -2,4 +2,9 @@ body{
   font-family: var(--mulish);
 }
 
-
+@media screen and (max-width: 420px){
+  html{
+    font-size: 12px;
+  }
+ 
+}

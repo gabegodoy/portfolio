@@ -88,3 +88,19 @@
   border-radius: 30px;
   padding: .5rem 1.5rem;
 }
+
+@media screen and (max-width: 420px){
+  
+  .portfolio__tittle{
+    margin: 0 auto;
+  }
+
+  .portfolio__project{
+    flex-direction: column;
+  }
+
+  .project__info__tittle{
+    margin-top: 2rem;
+  }
+
+}
