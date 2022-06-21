@@ -87,9 +87,16 @@
   background-color: var(--gray2);
   border-radius: 30px;
   padding: .5rem 1.5rem;
+
+  transition: 0.25s;  
 }
 
-@media screen and (max-width: 420px){
+.project__info__button:hover{
+  font-size: 1.3rem;
+  color: var(--yellow);
+}
+
+@media screen and (max-width: 1024px){
   
   .portfolio__tittle{
     margin: 0 auto;

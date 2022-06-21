@@ -82,7 +82,7 @@
   top: 0;
   right: 0;
   width: 30vw;
-  height: 65vh;
+  height: 65%;
   background-color: var(--yellow);
 }
 
@@ -98,11 +98,11 @@
   bottom: 0;
   right: 0;
   width: 30vw;
-  height: 35vh;
+  height: 35%;
   background-color: var(--coral);
 }
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 1024px){
   
   .home__container{
     flex-direction: column;
