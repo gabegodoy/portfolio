@@ -103,8 +103,48 @@
 }
 
 @media screen and (max-width: 420px){
+  
+  .home__container{
+    flex-direction: column;
+    gap: 5%;
+    align-items: center;
+  }
+
+  .home__images{
+    order: -1;
+    align-self: center;
+  }
+
+  .home__avatar{
+    width: 75vw;
+  }
+  
   .home__info{
     z-index: 15;
+    max-width: 70vw;
+    
   }
+
+  .home__title__name{
+    text-align: center;
+    font-size: 5rem;
+    width: fit-content;
+  }
+  
+  .home__title__lastname{
+    text-align: center;
+    font-size: 5rem;
+    width: fit-content;
+  }
+
+  .home__subtitle{
+    max-width: 65vw;
+  }    
+
+  
+  .square__down, .square__up{
+    width: 20vw;
+  }
+
 
 }
