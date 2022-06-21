@@ -58,9 +58,15 @@
   font-size: 1.3rem;
   line-height: 2rem;
   font-family: var(--mulish);
-  font-weight: 500;
+  font-weight: 300;
   text-align: justify;
 }
+
+.project__info__strong__subtitle--strong{
+  font-weight: 700;
+  color: var(--gray3);
+}
+
 
 .project__info__footer{
   display: flex;

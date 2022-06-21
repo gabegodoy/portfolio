@@ -96,6 +96,11 @@
 
 @media screen and (max-width: 1024px){
 
+  .contact{
+    height: 100%;
+    padding: 5rem 0;
+  }
+
   .contact__container{
     flex-direction: column;
     width: 80%;
