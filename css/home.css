@@ -1,8 +1,10 @@
 
 .home{
+  box-sizing: border-box;
   background: var(--blue);
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
+  padding: 5rem 0;
 }
 
 .home__container{
@@ -90,7 +92,7 @@
   top: 0;
   right: 0;
   width: 30vw;
-  height: 65%;
+  min-height: 65%;
   background-color: var(--yellow);
 }
 .square__down{
@@ -98,7 +100,7 @@
   bottom: 0;
   right: 0;
   width: 30vw;
-  height: 65%;
+  min-height: 35%;
   background-color: var(--coral);
 }
 
@@ -149,12 +151,10 @@
   
   .square__up{
     width: 20vw;
-    height: 65%;
   }
 
   .square__down{
     width: 20vw;
-    height: 35%;
   }
 
 }

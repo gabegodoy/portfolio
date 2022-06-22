@@ -100,16 +100,16 @@ label span:nth-child(1){
 }
 
 label span:nth-child(2){
-  top: 1.5vh;
+  top: 1rem;
 }
 
 label span:nth-child(3){
-  top: 3vh;
+  top: 2rem;
 }
 
 #menu__checkbox:checked + label span:nth-child(1){
   transform: rotate(-45deg);
-  top: 1.5vh;
+  top: 1.5rem;
   background: var(--yellow);
 }
 
@@ -119,7 +119,7 @@ label span:nth-child(3){
 
 #menu__checkbox:checked + label span:nth-child(3){
   transform: rotate(45deg);
-  top:1.5vh;
+  top:1.5rem;
   background: var(--yellow);
 }
 
