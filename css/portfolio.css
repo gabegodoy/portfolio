@@ -102,10 +102,14 @@
   color: var(--yellow);
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1020px){
   
-  .portfolio__tittle{
-    margin: 0 auto;
+  .portfolio__container{
+    text-align: center;
+  }
+
+  .project__info__tittle{
+    text-align: left;
   }
 
   .portfolio__project{
@@ -120,6 +124,8 @@
 
 @media screen and (max-width: 400px){
   
+
+
   .portfolio__tittle{
     font-size: 3rem;
   }
