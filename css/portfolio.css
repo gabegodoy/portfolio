@@ -37,6 +37,15 @@
   height: 15rem;
 }
 
+.mobile__container{
+  text-align: center;
+  width: 26rem;
+}
+
+.mobile__view{
+  width: auto;
+}
+
 .project__info{
   max-width: 30rem;
   display: flex;
