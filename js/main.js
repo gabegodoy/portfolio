@@ -11,3 +11,19 @@ menuCheckbox.addEventListener('click', () => {
   menuButton.classList.toggle('menu__button--active')
   menuNav.classList.toggle('menu__nav--active')
 })
+
+
+//ENGLISH CHOOSE
+const modalContainer = document.querySelector('.modal__container');
+const portugueseBtn = document.querySelector('#portugueseBtn');
+const enligshBtn = document.querySelector('#enligshBtn');
+
+portugueseBtn.addEventListener('click', () => {
+  modalContainer.style.display = 'none'
+})
+
+enligshBtn.addEventListener('click', () => {
+  //redirect
+  window.location.href = "english.html";
+
+})
