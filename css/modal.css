@@ -1,18 +1,23 @@
 .modal__container{
+
   position: absolute;
   top: 0;
   left: 0;
-
+  
   height: 100vh;
+  max-height: 100vh;
   width: 100vw;
+  max-width: 100vw;
 
   background-color: #000000CC;
 
   z-index: 999;
-
+  
+  box-sizing: border-box;
 }
 
 .modal__background{
+  box-sizing: border-box;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -44,3 +49,6 @@
   cursor: pointer;
 }
 
+.lang__avatar{
+  width: 30rem;
+}
