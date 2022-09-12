@@ -41,5 +41,6 @@
 
 .modal__btn{
   width: 8rem;
+  cursor: pointer;
 }
 
