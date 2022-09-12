@@ -1,5 +1,6 @@
 body{
   font-family: var(--mulish);
+  background-color: var(--blue);
 }
 
 @media screen and (max-width: 420px){
