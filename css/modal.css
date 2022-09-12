@@ -1,0 +1,45 @@
+.modal__container{
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 100vh;
+  width: 100vw;
+
+  background-color: #000000CC;
+
+  z-index: 999;
+
+}
+
+.modal__background{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+
+
+}
+
+.modal__tittle{
+  font-size: 3rem;
+  font-weight: 1000;
+  color: var(--gray3);
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.modal__btn__container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.modal__btn{
+  width: 8rem;
+}
+
