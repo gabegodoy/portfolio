@@ -1,60 +1,68 @@
-.portfolio{
+.portfolio {
   background: var(--black);
   height: 100%;
 }
 
-.portfolio__container{
+.portfolio__container {
   width: 80%;
   margin: 0 auto;
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
-.portfolio__tittle{
+.portfolio__tittle {
   font-size: 4rem;
   color: var(--gray1);
   font-family: var(--play);
   font-weight: 700;
 }
 
-.portfolio__tittle::before{
+.portfolio__tittle::before {
   content: "<";
 }
 
-.portfolio__tittle::after{
+.portfolio__tittle::after {
   content: ">";
 }
 
-.portfolio__project{
+.portfolio__project {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin-top: 5rem;
+
+  padding-bottom: 3rem;
+  border-bottom: solid 1px #ffffff20;
 }
 
-.project__image{
+.portfolio__project:nth-last-child(1){
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.project__image {
   width: 26rem;
   height: 15rem;
 }
 
-.mobile__container{
+.mobile__container {
   text-align: center;
   width: 26rem;
 }
 
-.mobile__view{
+.mobile__view {
   width: auto;
   height: 20rem;
 }
 
-.project__info{
+.project__info {
   max-width: 30rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-.project__info__tittle{
+.project__info__tittle {
   color: var(--yellow);
   font-size: 1.7rem;
   text-transform: uppercase;
@@ -63,7 +71,7 @@
   font-weight: 700;
 }
 
-.project__info__subtitle{
+.project__info__subtitle {
   color: var(--gray1);
   font-size: 1.3rem;
   line-height: 2rem;
@@ -72,19 +80,19 @@
   text-align: justify;
 }
 
-.project__info__strong__subtitle--strong{
+.project__info__strong__subtitle--strong {
   font-weight: 700;
   color: var(--gray3);
 }
 
 
-.project__info__footer{
+.project__info__footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.project__info__date{
+.project__info__date {
   color: var(--gray2);
   font-size: 1.2rem;
   line-height: 1.5rem;
@@ -92,7 +100,7 @@
   font-weight: 200;
 }
 
-.project__info__button{
+.project__info__button {
   color: var(--black);
   font-size: 1.2rem;
   line-height: 2rem;
@@ -104,39 +112,44 @@
   border-radius: 30px;
   padding: .5rem 1.5rem;
 
-  transition: 0.25s;  
+  transition: 0.25s;
 }
 
-.project__info__button:hover{
+.project__info__button:hover {
   font-size: 1.3rem;
   color: var(--yellow);
 }
 
-@media screen and (max-width: 1020px){
-  
-  .portfolio__container{
+@media screen and (max-width: 1020px) {
+
+  .portfolio__container {
     text-align: center;
   }
 
-  .project__info__tittle{
+  .project__info__tittle {
     text-align: left;
   }
 
-  .portfolio__project{
+  .portfolio__project {
     flex-direction: column;
   }
 
-  .project__info__tittle{
+  .project__info__tittle {
     margin-top: 2rem;
   }
 
 }
 
-@media screen and (max-width: 400px){
-  
+@media screen and (max-width: 400px) {
+
+  .project__info__footer {
+    flex-direction: column;
+    gap: 2.5rem;
+
+  }
 
 
-  .portfolio__tittle{
+  .portfolio__tittle {
     font-size: 3rem;
   }
 

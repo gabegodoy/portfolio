@@ -1,0 +1,51 @@
+.tags__container{
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  justify-content: left;
+}
+
+.tag{
+  font-size: .75rem;
+  line-height: 120%;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  padding: .4rem .6rem;
+  border-radius: 999px;  
+  color: white;
+  transition: all .3s ease-in-out;
+  filter: none;
+
+border: solid #ffffff40 1px;
+}
+
+.tag:hover{
+  filter: drop-shadow(0px 2px 3px #000);
+}
+
+.code{
+  background-color: var(--blue);
+  content: 'CODE';
+}
+
+.design{
+  background-color: var(--yellow);
+  content: 'UI/UX';
+}
+
+.responsive{
+  background-color: var(--green);
+  content: 'Responsivo';
+}
+
+.mobile{
+  background-color: var(--coral);
+  content: 'Mobile';
+}
+
+.game{
+  background-color: var(--gray1);
+  color: var(--black);
+  content: 'Game';
+}
