@@ -19,12 +19,14 @@
   <link rel="stylesheet" href="css/about.css">
   <link rel="stylesheet" href="css/contact.css">
   <link rel="stylesheet" href="css/portfolio.css">
+  <link rel="stylesheet" href="css/components.css">
 
 </head>
 
 <body>
 
   <main>
+
     <section class="home" id="home">
       <div class="home__container">
         <div class="menu">
@@ -46,10 +48,10 @@
         <div class="home__info">
           <h2 class="home__title__name">GABRIEL</h2>
           <h2 class="home__title__lastname">GODOY</h2>
-          <h4 class="home__subtitle">I design and code beautifully simple things, and I love what I do.</h4>
+          <h4 class="home__subtitle">I love creating, designing, and developing beautiful applications and games!</h4>
           <div class="home__description">
             <p class="home__description__function">front-end developer</p>
-            <p class="home__description__languages">HTML - CSS - JavaScript</p>
+            <p class="home__description__languages">HTML - SASS - JavaScript</p>
           </div>
         </div>
         <div class="home__images">
@@ -62,22 +64,26 @@
 
     <section class="about" id="about">
       <div class="about__container">
-        <h3 class="about__title__mobile">About Me</h3>
+        <h3 class="about__title__mobile">About me</h3>
         <img class="about__image" src="assets/images/me-about-complete.png" alt="Gabriel Smiling and Celebrating">
         <div class="about__text">
-          <h3 class="about__title__desktop">About Me</h3>
-          <p class="about__description">I am a Front-end developer, focused on web development using HTML5, CSS3,
-            JavaScript languages as well as Photoshop, Canva and Figma tools for image editing. <br><br>
+          <h3 class="about__title__desktop">About me</h3>
+          <p class="about__description">
+            I am a passionate Front-end Developer and Web Designer who loves what I do. I work with HTML5, CSS3, SASS,
+            JavaScript, TypeScript, and GIT in web development, and I am also skilled in design tools such as Photoshop,
+            Figma, Illustrator, Canva, and Microsoft Designer.<br><br>
 
-            I create market-ready solutions, focusing on usability, modern layout, as well as clean and efficient code.
-            Responsiveness and API consumption projects are some examples that can be seen in my portfolio. <br><br>
+            I enjoy creating amazing solutions, focusing on usability, stylish layouts, and clean, efficient code. I
+            have experience with responsive design and projects involving API consumption, which you can see in my
+            portfolio.<br><br>
 
-            I am creative, I enjoy learning, I am proactive and able to work in teams, I am fluent in English and I am
-            available for travel and relocation. <br><br>
+            Curious by nature, I like to learn new things and am proactive. I work well in teams, speak fluent English,
+            and am always ready to travel or relocate if necessary. My experience as a teacher has helped me develop
+            important skills such as a sense of urgency and discipline, making me a professional prepared to face
+            challenges and seek innovative solutions.<br><br>
 
-            Besides my passion for solving challenges, my previous experience as a Teacher, my curiosity, sense of
-            urgency and discipline, allow me to be for the market a professional willing to learn with new barriers, and
-            never stop looking for better solutions. </p>
+            Oh, and I'm also always keeping an eye on artificial intelligence and how it can help me be even more
+            efficient and productive in the world of development and design.</p>
         </div>
       </div>
     </section>
@@ -86,276 +92,223 @@
       <div class="portfolio__container">
         <h2 class="portfolio__tittle">PORTFOLIO</h2>
 
-        <div class="portfolio__project">
-          <div class="mobile__container">
-            <img src="assets/images/mobile--cardapio--gober.png" alt="Image of a mobile phone with the project on it"
-              class="project__image mobile__view">
+        <h3 class="portfolio__tittle portfolio__subtitle">Responsive Websites</h2>
+          <div class="portfolio__project">
+            <div class="mobile__container">
+              <img src="assets/images/laptop-insight.png" alt="Image of a desktop with the project on it"
+                class="project__image">
+            </div>
+            <div class="project__info">
+              <h6 class="project__info__tittle">Insight Business - Institucional Website</h6>
+              <p class="project__info__subtitle"><strong class="project__info__strong__subtitle--strong">Focus on SEO!</strong> Insight Business is an accounting and financial and business consulting agency that operates exclusively online. In this project, I worked end-to-end, from the briefing to the design and implementation. Given the importance of online presence, I focused on indexing, SEO, and accuracy of the page to ensure visibility and easy access to the services offered.</p>
+              <div class="project__info__footer">
+                <span class="tags__container">
+                  <p class="tag code">CODE</p>
+                  <p class="tag design">UX/UI</p>
+                  <p class="tag responsive">responsive</p>
+                </span>
+                <a href="https://insightbusiness.com.br"><button class="project__info__button">visit
+                    website</button></a>
+              </div>
+            </div>
           </div>
-          <div class="project__info">
-            <h6 class="project__info__tittle">Digital Menu</h6>
-            <p class="project__info__subtitle"><strong class="project__info__strong__subtitle--strong">Wanna order
-                smth?!</strong> Focusing on the bars and restaurants market, I developed this virtual menu, which, due
-              to its dynamic and elegant layout, besides delivering an excellent user experience, brings effectiveness
-              and more accurate sales for the establishment.
-            </p>
-            <div class="project__info__footer">
 
-      <!--         <span class="project__info__date">Desenvolvido em Sep, 2022</span> -->
-              <span class="tags__container">
-                <p class="tag code">CODE</p>
-                <p class="tag design">UX/UI</p>
-                <p class="tag mobile">Mobile</p>
-              </span>
-              <a href="https://cardapio.gobersolucoes.com.br/"><button class="project__info__button">visit
-                  app</button></a>
+          <div class="portfolio__project">
+            <div class="mobile__container">
+              <img src="assets/images/laptop-sesil.png" alt="Image of a desktop with the project on it"
+                class="project__image">
             </div>
-          </div>
-        </div>
+            <div class="project__info">
+              <h6 class="project__info__tittle">Sesil Lubrificantes - Virtual Catalogue</h6>
+              <p class="project__info__subtitle"><strong
+                  class="project__info__strong__subtitle--strong">Lubricate!</strong> Sesil Lubricants is a virtual catalogue for an international lubricating oil company. I worked end-to-end on the project, from the briefing to design and implementation. I used the 2RS CMS system to develop an efficient and easy-to-navigate platform, allowing users from around the world to explore and find products with ease.</p>
+              <div class="project__info__footer">
+                <span class="tags__container">
+                  <p class="tag code">CODE</p>
+                  <p class="tag design">UX/UI</p>
+                  <p class="tag responsive">responsive</p>
+                </span>
+                <a href="https://sesillubrificantes.com.br"><button class="project__info__button">visit
+                    website</button></a>
 
-        <div class="portfolio__project">
-          <div class="mobile__container">
-            <img src="assets/images/laptop-soBauru.png" alt="Image of a mobile phone with the project on it"
-              class="project__image">
-          </div>
-          <div class="project__info">
-            <h6 class="project__info__tittle">Só Bauru - File Converter</h6>
-            <p class="project__info__subtitle"><strong class="project__info__strong__subtitle--strong">Automation &
-                efficiency!</strong> <a href="https://github.com/lucasbertolini" style="color: var(--blue);">Lucas
-                Bertolini</a> and I developed this web application that converts the auto-generated .XML file, into the
-              ready-to-share weekly PNG/JPEG flyer, containing their specific structure. With this app, they're saving
-              time, money, and are also prevented from human tipping failures.</p>
-            <div class="project__info__footer">
-              <span class="project__info__date">Developed in Aug, 2022</span>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="portfolio__project">
-          <div class="mobile__container">
-            <img src="assets/images/laptop--ukSoldier.png" alt="Image of a mobile phone with the project on it"
-              class="project__image">
-          </div>
-          <div class="project__info">
-            <h6 class="project__info__tittle">Ukraine Soldier</h6>
-            <p class="project__info__subtitle"><strong class="project__info__strong__subtitle--strong">Would you like to
-                help UK?</strong> I developed this free online game, where you need to eliminate the different enemies
-              and, at the end, you'll receive a brief overview of what is happening in Ukraine and, how you can help.
-            </p>
-            <div class="project__info__footer">
-              <span class="project__info__date">Developed in Aug, 2022</span>
-              <a href="https://gabegodoy.github.io/ukraine-soldier/index.html"><button
-                  class="project__info__button">play game</button></a>
+          <div class="portfolio__project">
+            <div class="mobile__container">
+              <img src="assets/images/laptop-projeto-foco.png" alt="Image of a desktop with the project on it"
+                class="project__image">
             </div>
-          </div>
-        </div>
+            <div class="project__info">
+              <h6 class="project__info__tittle">Projeto Foco - Landing Page</h6>
+              <p class="project__info__subtitle"><strong class="project__info__strong__subtitle--strong">Say
+                  Cheese!</strong> Project Focus is a charity website developed for an educational institution dedicated to teaching photography to underprivileged teenagers. Using Mobirise technology, I created an attractive and accessible platform, highlighting the positive impact of the activities offered by the institution.</p>
+              <div class="project__info__footer">
+                <span class="tags__container">
+                  <p class="tag code">CODE</p>
+                  <p class="tag design">UX/UI</p>
+                  <p class="tag responsive">responsive</p>
+                </span>
+                <a href="https://projetofoco.vercel.app/"><button class="project__info__button">visit
+                    website</button></a>
 
-        <div class="portfolio__project">
-          <div class="mobile__container">
-            <img src="assets/images/mobile-msn.png" alt="Image of a mobile phone with the project on it"
-              class="project__image mobile__view">
-          </div>
-          <div class="project__info">
-            <h6 class="project__info__tittle">MSN - Messenger</h6>
-            <p class="project__info__subtitle"><strong class="project__info__strong__subtitle--strong">What if MSN was
-                back?</strong> We've developed a remake of the messenger 'MSN', built using HTML, CSS, JavaScript for
-              development, plus Canva and Photoshop for image editing. It consumes the API and Database created by the
-              Back-end developer partner in the project.
-            </p>
-            <div class="project__info__footer">
-              <span class="project__info__date">Developed in Jul, 2022</span>
-              <a href="https://gabegodoy.github.io/msn-messenger/"><button class="project__info__button">visit
-                  website</button></a>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="portfolio__project">
-          <div class="mobile__container">
-            <img src="assets/images/mobile-aero.png" alt="Image of a mobile phone with the project on it"
-              class="project__image mobile__view">
-          </div>
-          <div class="project__info">
-            <h6 class="project__info__tittle">Aeroclube Bar - Menu</h6>
-            <p class="project__info__subtitle"><strong class="project__info__strong__subtitle--strong">Restaurant
-                Menu.</strong> This is a 'mobile first' menu, developed for the city airport's bar and club, in order
-              for the customers to be able to interact faster and smarter with the menu via QR Code, not needing to call
-              for the waiter.</p>
-            <div class="project__info__footer">
-              <span class="project__info__date">Developed in Jul, 2022</span>
-              <a href="https://gabegodoy.github.io/aeroclube-bauru-cardapio/"><button
-                  class="project__info__button">visit website</button></a>
+          <div class="portfolio__project">
+            <div class="mobile__container">
+              <img src="assets/images/laptop-mentem.png" alt="Image of a desktop with the project on it"
+                class="project__image">
+            </div>
+            <div class="project__info">
+              <h6 class="project__info__tittle">Mente Magra - Sales Page</h6>
+              <p class="project__info__subtitle"><strong class="project__info__strong__subtitle--strong">Lean Mind, Healthy Body!</strong> Lean Mind is a sales landing page I developed end-to-end, from the client briefing to design and implementation. Designed to redirect users to the Hotmart page, the platform focuses on sales efficiency. Currently, the website is undergoing maintenance for improvements.</p>
+              <div class="project__info__footer">
+                <span class="tags__container">
+                  <p class="tag code">CODE</p>
+                  <p class="tag design">UX/UI</p>
+                  <p class="tag responsive">responsive</p>
+                </span>
+                <a href="https://mentem.2rscms.com.br"><button class="project__info__button">visit
+                    website</button></a>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="portfolio__project">
-          <img src="assets/images/laptop-jovens-misticos.png" alt="Image of a laptop with the project on it"
-            class="project__image">
-          <div class="project__info">
-            <h6 class="project__info__tittle">jovens místicos</h6>
-            <p class="project__info__subtitle"><strong class="project__info__strong__subtitle--strong">Do you like
-                quotes?</strong> This is a responsive application I've developed, based on a JavaScript API, to get
-              randomic quotes from data-base and print it on my website.</p>
-            <div class="project__info__footer">
-              <span class="project__info__date">Developed in Jul, 2022</span>
-              <a href="https://gabegodoy.github.io/Jovens-Misticos/"><button class="project__info__button">visit
-                  website</button></a>
+          <div class="portfolio__project">
+            <div class="mobile__container">
+              <img src="assets/images/laptop-tuttor.png" alt="Image of a desktop with the project on it"
+                class="project__image">
+            </div>
+            <div class="project__info">
+              <h6 class="project__info__tittle">Tuttor.tv - Video Repository</h6>
+              <p class="project__info__subtitle"><strong class="project__info__strong__subtitle--strong">Video Lessons!</strong> Tuttor.TV is the educational video repository of the Imondelli Institute, where I worked as a designer with a focus on mobile experience. Inspired by leading video lesson repositories, such as Alura, I collaborated in creating a user-friendly and intuitive platform to optimize users' learning experience.</p>
+              <div class="project__info__footer">
+                <span class="tags__container">
+                  <p class="tag design">UX/UI</p>
+                  <p class="tag responsive">responsive</p>
+                </span>
+                <a href="https://tuttor.tv"><button class="project__info__button">visit website</button></a>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="portfolio__project">
-          <img src="assets/images/laptop-typing.png" alt="Image of a laptop with the project on it"
-            class="project__image">
-          <div class="project__info">
-            <h6 class="project__info__tittle">typing game</h6>
-            <p class="project__info__subtitle"><strong class="project__info__strong__subtitle--strong">Do you consider
-                yourself as a great typist?</strong> This is a desktop game I've developed using JavaScript to challenge
-              myself using loops, DOM and localStorage.</p>
-            <div class="project__info__footer">
-              <span class="project__info__date">Developed in Jun, 2022</span>
-              <a href="https://gabegodoy.github.io/typing-game/"><button class="project__info__button">play
-                  game</button></a>
-            </div>
-          </div>
-        </div>
 
-        <div class="portfolio__project">
-          <img src="assets/images/laptop-rovani.png" alt="Image of a laptop with the project on it"
-            class="project__image">
-          <div class="project__info">
-            <h6 class="project__info__tittle">rovani's weed game</h6>
-            <p class="project__info__subtitle"><strong class="project__info__strong__subtitle--strong">Can you help
-                Rovani getting the weed?</strong> This is an Atari based game I've developed using canvas library on
-              JavaScript as a birthday present to a dear friend.</p>
-            <div class="project__info__footer">
-              <span class="project__info__date">Developed in Jun, 2022</span>
-              <a href="https://gabegodoy.github.io/Rovani-Get-The-Weed/"><button class="project__info__button">play
-                  game</button></a>
-            </div>
-          </div>
-        </div>
 
-        <div class="portfolio__project">
-          <img src="assets/images/laptop-robotron.png" alt="Image of a laptop with the project on it"
-            class="project__image">
-          <div class="project__info">
-            <h6 class="project__info__tittle">robotron 2000</h6>
-            <p class="project__info__subtitle"><strong class="project__info__strong__subtitle--strong">Earth is being
-                invaded by aliens! Can you help us and assemble a robot army?</strong> ‘Robotron-2000' was a project
-              used to develop DOM manipulation skills in JavaScript.</p>
-            <div class="project__info__footer">
-              <span class="project__info__date">Developed in Jun, 2022</span>
-              <a href="https://gabegodoy.github.io/Robotron-2000/"><button class="project__info__button">visit
-                  website</button></a>
-            </div>
-          </div>
-        </div>
+          <h3 class="portfolio__tittle portfolio__subtitle">Mobile Only</h2>
 
-        <div class="portfolio__project">
-          <img src="assets/images/laptop-mochila.png" alt="Image of a laptop with the project on it"
-            class="project__image">
-          <div class="project__info">
-            <h6 class="project__info__tittle">Backpack List</h6>
-            <p class="project__info__subtitle"><strong class="project__info__strong__subtitle--strong"> Have you ever
-                noticed how much time you spend packing?</strong> I used this travel themed ‘to do list’ to practice
-              JavaScript by implementing web storage, in Local Storage.</p>
-            <div class="project__info__footer">
-              <span class="project__info__date">Developed in Jun, 2022</span>
-              <a href="https://gabegodoy.github.io/Mochila-de-Viagem/"><button class="project__info__button">visit
-                  website</button></a>
-            </div>
-          </div>
-        </div>
 
-        <div class="portfolio__project">
-          <img src="assets/images/laptop-skate.png" alt="Image of a laptop with the project on it"
-            class="project__image">
-          <div class="project__info">
-            <h6 class="project__info__tittle">HZN Skate Shop</h6>
-            <p class="project__info__subtitle"><strong class="project__info__strong__subtitle--strong">Wanna buy some
-                nice clothes?</strong> In ‘HZN Skate Shop’ I managed to program for diferent screen sizes, using
-              different media querys and viewport. </p>
-            <div class="project__info__footer">
-              <span class="project__info__date">Developed in May, 2022</span>
-              <a href="https://gabegodoy.github.io/HZNSkateShop/"><button class="project__info__button">visit
-                  website</button></a>
+            <div class="portfolio__project">
+              <div class="mobile__container">
+                <img src="assets/images/mobile--cardapio--gober.png"
+                  alt="Image of a mobile phone with the project on it" class="project__image mobile__view">
+              </div>
+              <div class="project__info">
+                <h6 class="project__info__tittle">Digital Menu</h6>
+                <p class="project__info__subtitle"><strong class="project__info__strong__subtitle--strong">Want to place your order?!</strong> Focusing on the bar and restaurant market, I developed this virtual menu which, thanks to its dynamic and elegant layout, not only delivers an excellent user experience but also brings effectiveness and more accurate sales to the establishment.</p>
+                <div class="project__info__footer">
+                  <span class="tags__container">
+                    <p class="tag code">CODE</p>
+                    <p class="tag design">UX/UI</p>
+                    <p class="tag mobile">Mobile</p>
+                  </span>
+                  <a href="https://cardapio.gobersolucoes.com.br/"><button class="project__info__button">visit
+                      app</button></a>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
 
-        <div class="portfolio__project">
-          <img src="assets/images/laptop-7days--html.png" alt="Image of a laptop with the project on it"
-            class="project__image">
-          <div class="project__info">
-            <h6 class="project__info__tittle">7 days Of Code - HTML/CSS</h6>
-            <p class="project__info__subtitle">During the '7 Days of Code HTML/CSS – By Alura', I practiced the essence
-              of Front-end. Using HTML and CSS to develop a page from a layout in Figma</p>
-            <div class="project__info__footer">
-              <span class="project__info__date">Developed in May, 2022</span>
-              <a href="https://gabegodoy.github.io/7DaysOfCodeHTML-CSS/"><button class="project__info__button">visit
-                  website</button></a>
-            </div>
-          </div>
-        </div>
 
-        <div class="portfolio__project">
-          <img src="assets/images/laptop-7days--js.png" alt="Image of a laptop with the project on it"
-            class="project__image">
-          <div class="project__info">
-            <h6 class="project__info__tittle">7 days Of Code - JavaScript</h6>
-            <p class="project__info__subtitle">During the '7 Days of Logic with Javascript – By Alura', I practiced with
-              the most used language in the world and developed the use of Javascript to create algorithms and solve
-              everyday problems. </p>
-            <div class="project__info__footer">
-              <span class="project__info__date">Developed in Mar, 2022</span>
-              <a href="https://gabegodoy.github.io/7DaysOfCodeJS/"><button class="project__info__button">visit
-                  website</button></a>
+            <div class="portfolio__project noboder">
+              <div class="mobile__container">
+                <img src="assets/images/mobile-msn.png" alt="Image of a mobile phone with the project on it"
+                  class="project__image mobile__view">
+              </div>
+              <div class="project__info">
+                <h6 class="project__info__tittle">MSN - Messenger</h6>
+                <p class="project__info__subtitle"><strong class="project__info__strong__subtitle--strong">What if MSN came back?</strong> In partnership with <a href="https://github.com/Guilherme-FCM"
+                  style="color: var(--blue);">Guilherme Feitosa</a>, I developed a reimagining of 'MSN - Messenger',
+ using HTML, CSS, and JavaScript, where you can chat in real-time with other registered users.</p>
+                <div class="project__info__footer">
+                  <span class="tags__container">
+                    <p class="tag code">CODE</p>
+                    <p class="tag design">UX/UI</p>
+                    <p class="tag mobile">Mobile</p>
+                  </span>
+                  <a href="https://gabegodoy.github.io/msn-messenger/"><button class="project__info__button">visit
+                      website</button></a>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
 
-        <div class="portfolio__project">
-          <img src="assets/images/laptop-fosfo.png" alt="Image of a laptop with the project on it"
-            class="project__image">
-          <div class="project__info">
-            <h6 class="project__info__tittle">Fosfo Studio</h6>
-            <p class="project__info__subtitle">In this landing page I practiced my HTML and CSS skills, developing a
-              beautiful and simple landing page for a friend's company.</p>
-            <div class="project__info__footer">
-              <span class="project__info__date">Developed in Mar, 2022</span>
-              <a href="https://gabegodoy.github.io/FosfoStudio-LandingPage/"><button class="project__info__button">visit
-                  website</button></a>
-            </div>
-          </div>
-        </div>
+            <h3 class="portfolio__tittle portfolio__subtitle">Games</h2>
 
-        <!-- 
-        <div class="portfolio__project">
-          <img src="assets/images/laptop-trunfo.png" alt="Image of a laptop with the project on it" class="project__image">
-          <div class="project__info">
-            <h6 class="project__info__tittle">Trunfo - Airplanes</h6>
-            <p class="project__info__subtitle"><strong class="project__info__strong__subtitle--strong">Wanna feel like a Top Gun?</strong> In this game development I focused on practicing and improving my JavaScript skills, by working with objects and loops. 
-            <div class="project__info__footer">
-              <span class="project__info__date">Developed in Feb, 2022</span>
-              <a href="https://gabegodoy.github.io/Super-Trunfo-Avioes-de-Combate/"><button class="project__info__button">play game</button></a>
-            </div>
-          </div>
-        </div>
-         -->
-        <!-- 
-        <div class="portfolio__project">
-          <img src="assets/images/laptop-gta.png" alt="Image of a laptop with the project on it" class="project__image">
-          <div class="project__info">
-            <h6 class="project__info__tittle">Premium Deluxe Motorsport</h6>
-            <p class="project__info__subtitle">Website based on Simeon's dealership in GTA V.</p>
-            <div class="project__info__footer">
-              <span class="project__info__date">Developed in Feb, 2022</span>
-              <a href="https://gabegodoy.github.io/Dealership-LandingPage/"><button class="project__info__button">visit website</button></a>
-            </div>
-          </div>
-        </div>
- -->
+
+              <div class="portfolio__project">
+                <div class="mobile__container">
+                  <img src="assets/images/laptop--ukSoldier.png" alt="Image of a mobile phone with the project on it"
+                    class="project__image">
+                </div>
+                <div class="project__info">
+                  <h6 class="project__info__tittle">Ukraine Soldier</h6>
+                  <p class="project__info__subtitle"><strong class="project__info__strong__subtitle--strong">How about
+                    supporting Ukraine?</strong> I developed this 2D platform 'free-to-play' game, based on the
+                  classic 'Mario 2D', where you play as a Ukrainian soldier who needs to eliminate Russian soldiers. Upon completion, you will receive a summary of the current situation in Ukraine and information on how you can help refugees, such as access to official donations.</p>
+                  <div class="project__info__footer">
+                    <span class="tags__container">
+                      <p class="tag code">CODE</p>
+                      <p class="tag design">UX/UI</p>
+                      <p class="tag game">Game</p>
+                    </span>
+                    <a href="https://gabegodoy.github.io/ukraine-soldier/index.html"><button
+                        class="project__info__button">play game</button></a>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="portfolio__project">
+                <img src="assets/images/laptop-typing.png" alt="Image of a laptop with the project on it"
+                  class="project__image">
+                <div class="project__info">
+                  <h6 class="project__info__tittle">Typing Game</h6>
+                  <p class="project__info__subtitle"><strong class="project__info__strong__subtitle--strong">Are you
+                    fast at typing?</strong> This is a web-based game, developed for desktop, using JavaScript
+                    to challenge myself using loops, DOM manipulation, and localStorage.</p>
+                  <div class="project__info__footer">
+                    <span class="tags__container">
+                      <p class="tag code">CODE</p>
+                      <p class="tag design">UX/UI</p>
+                      <p class="tag game">Game</p>
+                    </span>
+                    <a href="https://gabegodoy.github.io/typing-game/"><button class="project__info__button">play
+                        game</button></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="portfolio__project">
+                <img src="assets/images/laptop-rovani.png" alt="Image of a laptop with the project on it"
+                  class="project__image">
+                <div class="project__info">
+                  <h6 class="project__info__tittle">rovani's weed game</h6>
+                  <p class="project__info__subtitle"><strong class="project__info__strong__subtitle--strong">Can you
+                    help Rovani catch the herb?</strong> This is an Atari-based game that I developed
+                    using the JavaScript canvas library as a birthday gift for a dear friend.</p>
+                  <div class="project__info__footer">
+                    <span class="tags__container">
+                      <p class="tag code">CODE</p>
+                      <p class="tag design">UX/UI</p>
+                      <p class="tag game">Game</p>
+                    </span>
+                    <a href="https://gabegodoy.github.io/Rovani-Get-The-Weed/"><button
+                        class="project__info__button">play game</button></a>
+                  </div>
+                </div>
+              </div>
+
 
 
 
@@ -373,7 +326,7 @@
         <div class="contact__right">
           <h3 class="contact__text__right">Let's work together?</h3>
           <ul class="contact__media">
-            <li><a href="mailto:gabe.profe@gmail.com"><img class="contact__media__item mail"
+            <li><a href="mailto:gabegodoy.dev@gmail.com"><img class="contact__media__item mail"
                   src="assets/icons/media-mail.svg" alt="e-mail icon"></a></li>
             <li><a href="https://github.com/gabegodoy"><img class="contact__media__item github"
                   src="assets/icons/media-github.svg" alt="github icon"></a></li>
