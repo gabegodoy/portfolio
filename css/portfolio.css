@@ -120,6 +120,13 @@
   color: var(--yellow);
 }
 
+
+.portfolio__tittle.portfolio__subtitle{
+  margin-top: 5rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
 @media screen and (max-width: 1020px) {
 
   .portfolio__container {
