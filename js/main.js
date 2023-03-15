@@ -8,6 +8,7 @@ const menuItem = document.querySelector('.menu__link');
 const homeContainer = document.querySelector('#home');
 
 
+
 menuCheckbox.addEventListener('click', () => {
   menu.classList.toggle('menu--active')
   menuButton.classList.toggle('menu__button--active')
@@ -15,18 +16,70 @@ menuCheckbox.addEventListener('click', () => {
 })
 
 
+
+
+
+// Desativar o overflow do body Caso Modal Aberta
+document.addEventListener('DOMContentLoaded', function() {
+  if(modalContainer.style.display !== 'none')   disableOverflow(true)
+});
+
+
+
 //LANG CHOOSE
 const modalContainer = document.querySelector('.modal__container');
 const portugueseBtn = document.querySelector('#portugueseBtn');
 const enligshBtn = document.querySelector('#enligshBtn');
 
+if(viewLocalStorage() === 'true') {
+  disableOverflow(false)
+  disableLangModal(true)
+}
+
 portugueseBtn.addEventListener('click', () => {
   modalContainer.style.display = 'none'
   //homeContainer.style.display = 'flex'
+    disableOverflow(false)
+    disableLangModal(true)
+    
+  })
+  
+  enligshBtn.addEventListener('click', () => {
+    //homeContainer.style.display = 'flex'
+    window.location.href = "english.html";
+    disableOverflow(false)
+    disableLangModal(true)
+
+
 })
 
-enligshBtn.addEventListener('click', () => {
-  //homeContainer.style.display = 'flex'
-  window.location.href = "english.html";
 
-})
+function viewLocalStorage (){
+
+  return localStorage.getItem("chave");
+} 
+
+
+function disableLangModal(param){
+
+  if(param){
+    localStorage.setItem("chave", JSON.stringify(true));
+    modalContainer.style.display = 'none'
+  } 
+  else{
+    localStorage.removeItem("chave");
+  } 
+  
+}
+
+
+
+
+function disableOverflow(param){
+  if(param){
+    document.body.style.overflow = 'hidden';
+  }else{
+    document.body.style.overflow = 'auto';
+  }
+
+}
